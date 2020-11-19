@@ -31,8 +31,7 @@
      color: black;
      text-align: center;
      padding: 14px 16px;
-     text-decoration: underline;
-     text-decoration-color: #f2f2ed;
+     text-decoration: none;
      font-size: 20px;
    }
    .topnav a:hover {
@@ -41,8 +40,6 @@
    }
    .topnav a.active {
      color: #7ead6c;
-     text-decoration: underline;
-     text-decoration-color: #7ead6c;
    }
    .topnav ul {
       margin: auto;
@@ -55,8 +52,11 @@
       padding: 0;
       display: inline-block;
    }
-   .topnav ul li a{
+   .topnav ul li a:link{
       text-align: center;
+      background-color: transparent;
+      text-decoration: underline;
+      text-decoration-color: #7ead6c;
    }
    .row {
      display: flex;
