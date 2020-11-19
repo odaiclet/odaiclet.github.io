@@ -71,7 +71,46 @@ body {
      color: #383838;
      font-size: 20px;
    }
-  .title{
+.topnav {
+     overflow: hidden;
+     justify-content: center;
+     display: inline-block;
+     position: absolute;
+     left: 0px;
+     height: 40px;
+     width: 100%;
+     margin: 0 auto;
+   }
+   .topnav a {
+     float: left;
+     color: black;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 20px;
+   }
+  .topnav a:hover {
+     background-color: #f2f2ed;
+     color: black;
+   }
+  .topnav a.active {
+     color: #7ead6c;
+   }
+  .topnav ul {
+      margin: auto;
+      padding: 0;
+      list-style: none;
+      text-align: center;
+   }
+ .topnav ul li{
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+   }
+.topnav ul li a{
+      text-align: center;
+   }
+  .titles{
       color: #7ead6c;
       padding: 20px;
       text-align: center;
@@ -129,8 +168,20 @@ body {
 </head>
 </style>
 <body>
-
-<div class = "title">
+	
+<div class = "titles">
+	<h1 style = "text-align:center;color: #383838;font-size:3em;">Odaiclet Piccinini</h1>
+</div>
+<div class="topnav">
+    	<ul>
+       		<li><a href="/index">Home</a></li>
+       		<li><a href="/resume">Resume</a></li>
+       		<li><a href="/projects">Projects</a></li>
+       		<li><a href="/lifestyle">Lifestyle</a></li>
+	</ul>
+</div>
+	
+<div class = "titles">
    <h1>ABOUT ME</h1>
 </div>
 
