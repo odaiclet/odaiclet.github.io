@@ -63,13 +63,48 @@
   color: #BC5A65;
   font-weight: bold;
 }
-</style>
+.topnav {
+     overflow: hidden;
+     justify-content: center;
+     display: inline-block;
+     position: absolute;
+     left: 0px;
+     height: 40px;
+     width: 100%;
+     margin: 0 auto;
+   }
+   .topnav a {
+     float: left;
+     color: black;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+     font-size: 20px;
+   }
+  .topnav a:hover {
+     background-color: #ddd;
+     color: black;
+   }
+  .topnav a.active {
+     color: #7ead6c;
+   }
+  .topnav ul {
+      margin: auto;
+      padding: 0;
+      list-style: none;
+      text-align: center;
+   }
+ .topnav ul li{
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+   }
+.topnav ul li a{
+      text-align: center;
+   }
    <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<title>Resume</title>
-
-<style type="text/css">
    body {
      margin-top: 10px;
      font-family: "Lucida Console", Monaco, monospace;
@@ -171,11 +206,22 @@
 
 </head>
 <body>
-<div class = "title" style="text-align:center">
-   <h1>Odaiclet Piccinini</h1>
-   <a href="https://github.com/odaiclet/resume/blob/main/resume-odaiclet-piccinini.pdf">Full resume (.pdf)</a>
-   <br />
-</div>
+	
+	<div class = "titles">
+  	 <h1>Odaiclet Piccinini</h1>
+	</div>
+
+	<div class="topnav">
+    		<ul>
+       		 <li><a href="index">Home</a></li>
+        	<li><a href="resume">Resume</a></li>
+        	<li><a href="projects">Projects</a></li>
+        	<li><a href="lifestyle">Lifestyle</a></li>
+    		</ul>
+	</div>
+<br />
+<br />
+<br />
 
 <div class="row">
    <div class = "info">
@@ -204,6 +250,9 @@
    </div>
    
    <div class = "resume">
+   	<h1 style="text-align:center">Odaiclet Piccinini</h1>
+   	<a href="https://github.com/odaiclet/resume/blob/main/resume-odaiclet-piccinini.pdf">Full resume (.pdf)</a>
+   <br />
       <h2>Education</h2>
    
       <b>UC Berkeley</b>             <b>GPA:</b> 3.49             <b>Expected June 2022</b>
