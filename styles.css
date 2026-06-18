@@ -25,7 +25,7 @@
 .current-card-links a {
   border-bottom: 1px solid currentColor;
   color: #f4f1de;
-  font-size: 12px;
+  font-size: 14px;
   padding-bottom: 4px;
 }
 
@@ -92,10 +92,10 @@ nav a:hover { opacity: 1; }
 .project:last-child { border-bottom: 1px solid var(--line); }
 .project:hover { padding-left: 16px; }
 .project-number { font-family: var(--serif); font-size: 24px; opacity: .55; }
-.project-type { color: #e8a3b5; font-size: 11px; letter-spacing: .12em; margin: 0 0 10px; text-transform: uppercase; }
+.project-type { color: #e8a3b5; font-size: 16px; letter-spacing: .12em; margin: 0 0 10px; text-transform: uppercase; }
 .project h3 { font-family: var(--serif); font-size: clamp(32px, 4vw, 60px); font-weight: 400; margin: 0; }
 .project-copy > p:last-child { line-height: 1.6; max-width: 660px; opacity: .7; }
-.project > a { align-items: center; border: 1px solid var(--line); border-radius: 50%; display: flex; font-size: 24px; height: 60px; justify-content: center; transition: .2s; width: 60px; }
+.project > a { align-items: center; border: 1px solid var(--line); border-radius: 50%; display: flex; font-size: 34px; height: 60px; justify-content: center; transition: .2s; width: 60px; }
 .project > a:hover { background: var(--beige); color: var(--ink); }
 
 .contact { background: var(--beige); padding: 130px 6vw 150px; text-align: center; }
