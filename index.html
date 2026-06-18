@@ -1,214 +1,127 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <title>home</title>
-  <!-- Add font library -->
-<link hreft="https://fonts.googleapis.com/css?family=Domine" rel = "stylesheet">
-   <!-- Add icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-   body {
-     margin: 0;
-     padding: 35px;
-     font-family: "Domine", Monaco, monospace;
-     font-size: 20px;
-     color: #383838;
-     margin-bottom: 10px;
-   }
-   .topnav {
-     overflow: hidden;
-     justify-content: center;
-     display: inline-block;
-     position: absolute;
-     left: 0px;
-     height: 40px;
-     width: 100%;
-     margin: 0 auto;
-   }
-   .topnav a {
-     float: left;
-     color: black;
-     text-align: center;
-     padding: 14px 16px;
-     text-decoration: none;
-     font-size: 20px;
-   }
-   .topnav a:hover {
-     background-color: #f2f2ed;
-     color: #383838;
-   }
-   .topnav a.active {
-     color: #7ead6c;
-   }
-   .topnav ul {
-      margin: auto;
-      padding: 0;
-      list-style: none;
-      text-align: center;
-   }
-   .topnav ul li{
-      margin: 0;
-      padding: 0;
-      display: inline-block;
-      color: #383838;
-   }
-   .topnav ul li a:link{
-      text-align: center;
-      background-color: transparent;
-      text-decoration: underline;
-      text-decoration-color: #7ead6c;
-   }
-   .row {
-     display: flex;
-     background: #f2f2ed;
-   }
-      /* Create two equal columns that sits next to each other */
-   .column {
-     flex: 50%;
-     padding: 20px;
-   }
-   div.image{
-      padding: 30px;
-      text-align: center;
-      max-width: 600px;
-   }
-   div.biotext{
-      padding-top: 200px;
-      padding-right: 30px;
-      padding-bottom: 50px;
-      padding-left: 80px;
-      text-align: left;
-      max-width: 600px;
-   }
-      /* Style all font awesome icons */
-   .fa {
-     padding: 7px;
-     font-size: 40px;
-     width: 50px;
-     text-align: center;
-     text-decoration: none;
-     border-radius: 50%;
-   }
-   
-   /* Add a hover effect if you want */
-   .fa:hover {
-     opacity: 0.7;
-   }
-   
-   /* Set a specific color for each brand */
-   
-   /* github */
-   .fa-github {
-     background: #7ead6c;
-     color: white;
-   }
-   
-   /* linkedin */
-   .fa-linkedin {
-     background: #7ead6c;
-     color: white;
-     
-   }
-    /* twitter */
-   .fa-twitter {
-     background: #7ead6c;
-     color: white;
-     
-   }
-   h1 {
-   color: #7ead6c;
-   font-size: 3em;
-   }
-   h2 {
-   color: #7ead6c;
-   font-size: 2em;
-   }
-   .titles {
-   text-align: center;
-   margin: 0;
-   }
-   .contact .button {
-     background-color: #eea29a; /* coral*/
-     border: none;
-     color: white;
-     padding: 20px 30px;
-     text-align: center;
-     text-decoration: none;
-     display: inline-block;
-     font-size: 30px;
-     cursor: pointer;
-   }
-   .button1 {
-     background-color: #eea29a; 
-     color: white; 
-     font-size: 30px;
-     padding: 25px 40px;
-   }
-   .footnote {
-   text-align: center;
-   font-size: 14px;
-   padding: 20px;
-   margin-bottom: 10px;
-   }
-   
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Odaiclet Piccinini is an Applied AI/ML Engineer building generative AI systems and agentic workflows.">
+  <meta name="theme-color" content="#a4133c">
+  <title>Odaiclet Piccinini — Applied AI/ML Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Odaiclet Piccinini, home">OP<span>.</span></a>
+    <nav aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#work">Work</a>
+      <a href="resume.html">Resume</a>
+    </nav>
+    <a class="header-cta" href="mailto:odaiclet@gmail.com">Let’s talk <span aria-hidden="true">↗</span></a>
+  </header>
 
-<div class = "titles">
-   <h1>Odaiclet Piccinini</h1>
-</div>
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="eyebrow"><span></span> Applied AI/ML Engineer · Chicago</div>
+      <h1 id="hero-title">I build intelligent systems with <em>people</em> in mind.</h1>
+      <div class="hero-bottom">
+        <p>I’m Odaiclet—an Applied AI/ML Engineer at Lineal building generative AI systems and agentic workflows with people in mind.</p>
+        <a class="circle-link" href="#about" aria-label="Learn more about Odaiclet"><span>Explore</span><b aria-hidden="true">↓</b></a>
+      </div>
+      <div class="scribble" aria-hidden="true">thinking in patterns,<br>building with purpose</div>
+    </section>
 
-<div class="topnav">
-    <ul>
-        <li><a href="index">Home</a>
-        </li>
-        <li><a href="resume">Resume</a>
-        </li>
-        <li><a href="projects">Projects</a>
-        </li>
-        <li><a href="lifestyle">Lifestyle</a>
-        </li>
-    </ul>
-</div>
-<br />
-<br />
-<div class = "subtitle" style = "text-align:center">
-   <i>Always looking for new opportunities to bring my diverse background into innovative teams</i>
-</div>
-<br />
-<br />
-<br />
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="section-label"><span>01</span> About</div>
+      <div class="about-copy">
+        <h2 id="about-title">From curiosity to code—and back again.</h2>
+        <p class="lead">I’m an Applied AI/ML Engineer at Lineal and an MS Computer Science student specializing in AI at Georgia Tech.</p>
+        <div class="about-columns">
+          <p>My work centers on generative AI, agentic workflows, and production machine learning. I bring together technical depth, product thinking, and clear communication to create systems people can trust and use.</p>
+          <p>I earned my BA in Cognitive Science with a Data Science minor from UC Berkeley. As a first-generation immigrant and former co-founder of Womxn in Tech, I care deeply about widening who gets to shape technology—and who benefits from it.</p>
+        </div>
+        <div class="tags" aria-label="Areas of expertise">
+          <span>Generative AI</span><span>Agentic Workflows</span><span>Python</span><span>Machine Learning</span><span>Human-centered AI</span>
+        </div>
+      </div>
+      <figure class="portrait-wrap">
+        <img src="images/IMG_7664.jpg" alt="Portrait of Odaiclet Piccinini" width="1242" height="1540">
+        <figcaption>Engineer. Scientist. Perpetually curious.</figcaption>
+      </figure>
+    </section>
 
-<div class="row">
-   <div class = "image">
-      <img src="images/IMG_7664.jpg" alt="Student" style="float:left;width:650px;height:850px;">
-   </div>
-   
-   <div class = "biotext">
-      <h2>About Me</h2>
-      <p>I am a latina woman, first-generation immigrant, Generative AI Engineer at Discover/Capital One. While in college I co-founded of the Womxn in Tech club at the College of Marin and graduated with Cognitive Science from the University of California, Berkeley. I am passionate about bridging the gaps between technology, race, and gender. I have experience using exploratory data analysis and inferential statistics to understand data and produce educated guesses about the world’s phenomena.<a style="color: #383838;text-decoration: underline;text-decoration-color: #7ead6c;" href="about-me">(Get to know me more!)</a></p>
-      <a href="https://www.linkedin.com/in/odaiclet" class="fa fa-linkedin"></a>
-      <a href="https://www.github.com/odaiclet" class="fa fa-github"></a>
-      <a href="https://twitter.com/odaicletmarina" class="fa fa-twitter"></a>
-      
-   </div>
-</div>
+    <section class="work" id="work" aria-labelledby="work-title">
+      <div class="work-heading">
+        <div class="section-label light"><span>02</span> AI for good</div>
+        <h2 id="work-title">Building useful AI, one system at a time.</h2>
+      </div>
+      <div class="work-group current-work">
+        <div class="work-group-heading">
+          <p>Current projects</p>
+          <p>Five independently built projects designed to work together as one larger agentic system.</p>
+        </div>
+        <div class="current-grid">
+          <article class="current-card"><span>01</span><p>In progress</p><h3>Project one</h3><small>Independent system component · Details coming soon</small></article>
+          <article class="current-card"><span>02</span><p>In progress</p><h3>Project two</h3><small>Independent system component · Details coming soon</small></article>
+          <article class="current-card"><span>03</span><p>In progress</p><h3>Project three</h3><small>Independent system component · Details coming soon</small></article>
+          <article class="current-card"><span>04</span><p>In progress</p><h3>Project four</h3><small>Independent system component · Details coming soon</small></article>
+          <article class="current-card"><span>05</span><p>In progress</p><h3>Project five</h3><small>Independent system component · Details coming soon</small></article>
+        </div>
+      </div>
+      <div class="work-group college-work">
+        <div class="work-group-heading">
+          <p>College projects</p>
+          <p>Early work using data and computation to better understand our world.</p>
+        </div>
+      <div class="project-list">
+        <article class="project">
+          <div class="project-number">01</div>
+          <div class="project-copy">
+            <p class="project-type">Astrophysics · Python · Research</p>
+            <h3>Modeling asteroid 2015 KZ120</h3>
+            <p>Derived a previously unknown rotational period and built a provisional shape model from wide-field sky survey data.</p>
+          </div>
+          <a href="https://github.com/odaiclet/Shape-Model-of-Asteroid-2015-KZ120" aria-label="View asteroid project on GitHub">↗</a>
+        </article>
+        <article class="project">
+          <div class="project-number">02</div>
+          <div class="project-copy">
+            <p class="project-type">Data analysis · R · Visualization</p>
+            <h3>Hurricane pattern validation</h3>
+            <p>Tested common claims about hurricane seasons and found a greater frequency of storms than initially proposed.</p>
+          </div>
+          <a href="https://github.com/odaiclet/Hurricane-Pattern-Validation" aria-label="View hurricane project on GitHub">↗</a>
+        </article>
+        <article class="project">
+          <div class="project-number">03</div>
+          <div class="project-copy">
+            <p class="project-type">Global data · Python · Statistics</p>
+            <h3>Population, poverty & child mortality</h3>
+            <p>Explored the relationships among population growth, fertility, poverty, and child mortality across continents.</p>
+          </div>
+          <a href="https://github.com/odaiclet/Trend-Analysis-of-the-World-s-Population-Poverty-and-Fertility-Rates-and-Child-Mortality" aria-label="View population project on GitHub">↗</a>
+        </article>
+      </div>
+      </div>
+    </section>
 
-<div class = "contact">
-   <h1>Need to get in touch?</h1>
-   <form action = "mailto:odaiclet@gmail.com" method = "get">
-      <button class = "button button1">EMAIL ME!</button>
-   </form>
-</div>
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <p>Have an interesting problem?</p>
+      <h2 id="contact-title">Let’s make something <em>thoughtful.</em></h2>
+      <a href="mailto:odaiclet@gmail.com">odaiclet@gmail.com <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
 
-
-
-<div class = "footnote">
-   <p>Created by Odaiclet Piccinini. All rights reserved.</p>
-</div>
-
+  <footer>
+    <p>© <span id="year">2026</span> Odaiclet Piccinini</p>
+    <div>
+      <a href="https://www.linkedin.com/in/odaiclet">LinkedIn</a>
+      <a href="https://github.com/odaiclet">GitHub</a>
+    </div>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
