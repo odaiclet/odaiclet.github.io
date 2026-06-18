@@ -8,6 +8,26 @@
   --sans: "DM Sans", sans-serif;
   --serif: "Instrument Serif", Georgia, serif;
 }
+.current-card.has-links small {
+  display: block;
+  position: static;
+  line-height: 1.55;
+  max-width: 38rem;
+}
+
+.current-card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 24px;
+}
+
+.current-card-links a {
+  border-bottom: 1px solid currentColor;
+  color: #f4f1de;
+  font-size: 12px;
+  padding-bottom: 4px;
+}
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
